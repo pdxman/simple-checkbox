@@ -1,11 +1,27 @@
 .App {
   text-align: center;
+  background-color: #00b4d8;
+  height: 100vh;
 }
+
+h1{ margin-top: 0; padding-top: 2em; }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.radio-box {
+  color: #03045e; 
+  max-width: 8em;
+  margin: 0 auto;
+  border: 1px solid #03045e;
+  border-radius: 10px;
+  padding: 1em; 
+  transition: all .5s ease;  
+}
+
+.checked.radio-box { padding: 1.5em; }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
